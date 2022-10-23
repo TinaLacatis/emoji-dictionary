@@ -2,12 +2,12 @@ import Entry from './Entry'
 import emojipedia from '../emojipedia'
 import '../style.css';
 
-function createEmoji(emoji){
+function createEmoji(emojiTerm){
   return <Entry 
-  key = {emoji.id}
-  emoji = {emoji.emoji}
-  name = {emoji.name}
-  meaning = {emoji.meaning}
+  key = {emojiTerm.id}
+  img = {emojiTerm.emoji}
+  name = {emojiTerm.name}
+  description = {emojiTerm.meaning}
   />
 }
 

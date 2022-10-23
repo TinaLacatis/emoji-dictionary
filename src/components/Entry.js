@@ -5,12 +5,12 @@ export default function Entry(props) {
             <p>{props.id}</p>
           <dt>
             <span className="emoji" role="img" aria-label="Tense Biceps">
-              {props.emoji}
+              {props.img}
             </span>
             <span>{props.name}</span>
           </dt>
           <dd>
-            {props.meaning}
+            {props.description}
           </dd>
         </div>
     )
